@@ -15,7 +15,7 @@ int main()
   cin>>n;
   for(int i=1; i<=6; i++){
     for(int j=1; j<=6; j++){
-      if(n-i-j<=6)cout<<i<<' '<<j<<' '<<n-i-j<<'\n';
+      if(n-i-j>0&&n-i-j<=6)cout<<i<<' '<<j<<' '<<n-i-j<<'\n';
     }
   }
 
